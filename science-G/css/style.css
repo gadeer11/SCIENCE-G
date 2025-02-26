@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    font-family: "Lora", serif;
+    padding: 0;
+    margin: 0;
+}
+a{color: #3B3030;
+ text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right,#FFF0D1,#795757);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+width: 90%;
+ height: 640px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+font-size: medium;
+text-transform: uppercase;
+}
+ul{
+  width: 60%;  
+    list-style: none;
+display: flex;
+justify-content: space-evenly;
+}
+ul a{border-bottom: 2px solid transparent;}
+ul a:hover{border-bottom: 2px solid #3B3030;}
+.content{ 
+  color: #3B3030;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing:2px ;
+}
+.content p{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:  sans-serif;
+ letter-spacing: 2px;
+ line-height: 30px;
+}
+.content span{
+    color: #D6C0B3;
+    font-size: 60px;
+    margin-top: auto;
+}
+
+.contact-form h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;}
+.footer p{
+    display: flex;
+    text-align: end;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, #fff0d1af, #7957578f);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    border-bottom: 1px solid #3B3030;
+    background: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input :focus{
+    outline: none;
+}
+.placeholder{
+    color: #3B3030;
+}
+.form button{
+    width: 240px;
+    height: 35px;
+    background: #3B3030;
+    color: #fff;
+}
